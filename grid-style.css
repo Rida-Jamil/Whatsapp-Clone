@@ -1,0 +1,23 @@
+.grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 25px;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+.cards {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: chocolate
+}
+
+.footer {
+    display: flex;
+    background: #273443;
+    color: gray;
+    justify-content: space-around;
+    margin-top: 90px;
+}
